@@ -22,8 +22,8 @@
 *.testlog
 
 # Ignore bin and obj folders for all configurations
-bin/
-obj/
+*/bin/
+*/obj/
 [Bb]in/
 [Oo]bj/
 

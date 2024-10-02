@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JobSearchApi.Data
 {
-    interface IJobContext
+    public interface IJobContext
     {
         DbSet<Job> Jobs {get; set;}
     }
