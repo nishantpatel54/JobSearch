@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "5598d672-8f54-458f-ae2e-0dc21abb2689",
+		"name": "Job Search API",
+		"description": "A collection to test the Job Search API endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38683244"
+	},
+	"item": [
+		{
+			"name": "Create Job",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jobTitle\": \"Software Developer\",\n    \"jobDescription\": \"We are looking for a talented software developer to join our team.\",\n    \"requiredSkills\": \"C#, .NET, SQL\",\n    \"companyName\": \"Tech Co.\",\n    \"location\": \"New York, NY\",\n    \"jobType\": \"Full-time\",\n    \"extractionDate\": \"2023-08-15T00:00:00Z\",\n    \"postedDate\": \"2023-08-14T00:00:00Z\",\n    \"minSalary\": 80000,\n    \"maxSalary\": 120000\n}"
+				},
+				"url": "http://localhost:8080/api/jobs"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Jobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/jobs"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Job by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/jobs/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Job",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jobId\": 1,\n    \"jobTitle\": \"Senior Software Developer\",\n    \"jobDescription\": \"We are looking for a senior software developer to lead our team.\",\n    \"requiredSkills\": \"C#, .NET, SQL, Leadership\",\n    \"companyName\": \"Tech Co.\",\n    \"location\": \"New York, NY\",\n    \"jobType\": \"Full-time\",\n    \"extractionDate\": \"2023-08-15T00:00:00Z\",\n    \"postedDate\": \"2023-08-14T00:00:00Z\",\n    \"minSalary\": 100000,\n    \"maxSalary\": 150000\n}"
+				},
+				"url": "http://localhost:8080/api/jobs/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Job",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/jobs/1"
+			},
+			"response": []
+		}
+	]
+}
