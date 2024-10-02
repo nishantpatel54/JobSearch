@@ -52,7 +52,7 @@ namespace JobSearchApi.Controllers
                 await _jobService.CreateJobAsync(job);
                 return CreatedAtAction(nameof(GetJob), new { id = job.JobId }, job);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Log the exception here
                 return StatusCode(500, "An error occurred while creating the job.");
@@ -81,7 +81,7 @@ namespace JobSearchApi.Controllers
             {
                 return NotFound();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Log the exception here
                 return StatusCode(500, "An error occurred while updating the job.");
@@ -100,7 +100,7 @@ namespace JobSearchApi.Controllers
             {
                 return NotFound();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Log the exception here
                 return StatusCode(500, "An error occurred while deleting the job.");
