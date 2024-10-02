@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobSearchApi", "JobSearchApi.csproj", "{B88E9567-D0E8-44BD-9040-599745FC8246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobSearchApi.Tests", "JobSearchApi.Tests.csproj", "{9A4D477A-0F9C-4A04-B0D3-4FCE95E49C79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B88E9567-D0E8-44BD-9040-599745FC8246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B88E9567-D0E8-44BD-9040-599745FC8246}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B88E9567-D0E8-44BD-9040-599745FC8246}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B88E9567-D0E8-44BD-9040-599745FC8246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4D477A-0F9C-4A04-B0D3-4FCE95E49C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4D477A-0F9C-4A04-B0D3-4FCE95E49C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4D477A-0F9C-4A04-B0D3-4FCE95E49C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4D477A-0F9C-4A04-B0D3-4FCE95E49C79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C8402537-6ED4-4B00-9566-B35F73736489}
+		SolutionGuid = {02E0CBA7-5FF7-4D3A-899F-148877E6723C}
 	EndGlobalSection
 EndGlobal

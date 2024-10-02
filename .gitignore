@@ -1,1 +1,106 @@
-*.vsidx
+# Ignore Visual Studio related temporary files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.log
+*.tlog
+*.dbmdl
+*.rsuser
+*.vcxproj
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+
+# Ignore Visual Studio Test Store
+*.testlog
+
+# Ignore bin and obj folders for all configurations
+*/bin/
+*/obj/
+[Bb]in/
+[Oo]bj/
+
+# Ignore build results
+*.dll
+*.exe
+*.log
+*.tmp
+*.tlog
+*.buildlog
+*.pdb
+
+# Ignore NuGet-related files
+*.nuget.*
+project.assets.json
+project.nuget.cache
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Ignore publish outputs
+*.publish.xml
+*.pubxml
+*.pubxml.user
+publish/
+
+# Ignore specific files from the JobSearchApi project
+backend/JobSearchApi/obj/
+backend/JobSearchApi/bin/
+
+# Ignore User-specific files
+*.rsuser
+*.userprefs
+*.user
+*.suo
+
+# Ignore backup files
+*.bak
+Backup*/
+
+# Ignore build directories
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore Dotnet temporary files and artifacts
+artifacts/
+project.lock.json
+project.fragment.lock.json
+
+# Ignore node_modules (if applicable)
+node_modules/
+
+# Ignore .env files
+.env
+
+# Ignore JetBrains Rider/IntelliJ specific files
+.idea/
+*.sln.iml
+
+# macOS and Windows system files
+.DS_Store
+*.stackdump
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+
+# Ignore ReSharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Ignore Azure Stream Analytics local run output
+ASALocalRun/
