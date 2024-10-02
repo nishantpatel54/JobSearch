@@ -3,7 +3,7 @@ using JobSearchApi.Repository;
 
 namespace JobSearchApi.Services
 {
-    class JobService : IJobService
+    public class JobService : IJobService
     {
         private readonly IJobRepository _jobRepository;
         public JobService(IJobRepository jobRepository)
