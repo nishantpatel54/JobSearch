@@ -2,9 +2,9 @@
 
 ## Initial Phase - Implementation of Core Components
 
-- [ ] Barebones API for Job search
-    - [ ] Insertion of Jobs single and in bulk
-    - [ ] Simple CRUD operations
+- [x] Barebones API for Job search
+    - [x] Insertion of Jobs single and in bulk
+    - [x] Simple CRUD operations
 
 - [ ] Scraper to get jobs from popular sources
 - [ ] Scrape data until we reach a "saturation" point
